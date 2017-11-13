@@ -1,0 +1,17 @@
+<div class="wikidoc">
+<h2><strong>FastMG</strong></h2>
+<p><strong>A simple, fast, and accurate maximum likelihood procedure to estimate amino acid replacement rate matrices from large data sets</strong><br>
+<br>
+Amino acid replacement matrices are essential for many statistical methods to analyze protein sequences. Maximum likelihood (ML) methods typically generate the best replacement matrices because they can fully utilize information in the multiple protein alignments.
+ However, for this application ML analysis is complex and computational expensive.<br>
+<br>
+We proposed a modified ML procedure to estimate amino acid replacement rate matrices from large data sets, called FastMG, to overcome the obstacle. The key innovation of the FastMG is the alignment-splitting algorithm that splits alignments with many sequences
+ into smaller sub-alignments in such a way that each still contains enough information for estimating the amino acid replacement rates.<br>
+<br>
+We designed two splitting algorithms: <em>naive random splitting algorithm, tree-based splitting algorithm</em>. The tree-based splitting algorithm follows the NJ algorithm to split large alignments into sub-alignments.<br>
+<br>
+FastMG is a simple, fast and accurate procedure to estimate amino acid substitution matrices for large data sets. FastMG<sup>T</sup> (FastMG with tree-based splitting algorithm) with
+<em>k</em>&ge;16 was about an order of magnitude faster than the standard estimation procedure while it did not reduce the quality of estimated matrices. We strongly suggest using
+<em>k</em>=16 as a good choice for the FastMG<sup>T</sup> estimation procedure.</p>
+<p style="text-align:right">&nbsp; &nbsp;&nbsp;<a href="http://www.ibc-montpellier.fr/" target="_blank"><img src="http://www.ibc-montpellier.fr/images/IBC/ibc_logo_200.png" alt="ibc_logo_200.png" width="200" height="111"></a></p>
+</div><div class="ClearBoth"></div>
